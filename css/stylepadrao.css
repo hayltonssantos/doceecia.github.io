@@ -1,0 +1,160 @@
+/* TOPO */
+body{
+    font-family: 'Solway', serif;
+    /*font-family: 'Calistoga', cursive;
+    font-family: 'Quicksand', sans-serif;*/
+}
+header{
+    background: url("../img/back.png");
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    bottom:130px;
+    left: 650px;
+    
+}
+.fotologo{
+    width: 250px;
+    transition-delay: 0.2s;
+}
+.fotologo:hover{
+    transform: scale(1.1);
+    
+}
+nav ul {
+    border: 1px solid white;
+    padding: 10px 10px 10px 0px;
+    border-radius: 56px;
+    background-color:whitesmoke
+}
+nav li {
+    display: inline;
+    margin: 0 0 15px 15px;
+}
+nav a {
+    /*text-transform: uppercase;*/
+    color: saddlebrown;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color:dodgerblue;
+}
+
+/* MEIO */
+
+
+/* FIM */
+
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    background: #8B4513	;
+    text-align: center;
+    
+    
+}
+.fotologofot{
+   width: 165px;
+    position: relative;
+    right: 300px;
+    transition-delay: 0.2s;
+     
+    
+}
+.fotologofot:hover{
+    transform: scale(1.1);
+    
+}
+footer p {
+    position: relative;
+    bottom: 80px;
+    text-transform: uppercase;
+    font-size: 17px;
+    display: inline;
+    padding: 10px 0px;
+    color: aliceblue;
+    font-weight: bold;
+    
+}
+.dona{
+    position: relative;
+    bottom: 80px;
+    margin-top: 3px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+/* DISPOSITIVO MOVEL */
+
+@media screen and (max-width:1024px){
+    .caixa{
+        width: auto;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    
+    .fotologo{
+        width: 30%;
+        position: static;
+        
+    }
+    header{
+        text-align: center;
+    }
+    
+    nav{
+        display: inline;
+        bottom: auto;
+        left: auto;
+        position: static;
+    }
+    
+    main{
+        margin: auto;
+    }
+    
+    form, form label {
+      text-align: center;
+        padding: 1px;
+    }
+    
+    .input-padrao{
+        display: inline;
+        margin: auto;
+    }
+    
+    .enviar{
+        display:
+        
+    }
+    
+    main p{
+        position: static;
+    }
+    
+    .maps,.mapa{
+        width: auto;
+        position: static;
+    }
+}
+
+
+/*FADEOUT*/ 
+
+.fadeOut{
+    opacity: 0;
+    transition: 0.5s;
+}

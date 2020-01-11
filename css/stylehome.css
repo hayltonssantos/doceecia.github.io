@@ -1,0 +1,15 @@
+
+.maps{
+   position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa{
+    position: relative;
+    left: 50%;
+    margin: 10px;
+    border: 3px solid #8B4513;
+    border-radius: 25px;
+    
+}

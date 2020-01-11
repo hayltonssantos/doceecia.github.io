@@ -1,0 +1,166 @@
+.opcao {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.fotos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 3px 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    transition-delay: 0.2s;
+}
+
+.fotos li:hover{
+    transform: scale(1.1);
+    
+}
+
+main h2 a {
+    text-decoration: none;
+    color: chocolate;
+    font-size: 1.8em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.p{
+    margin:10px;
+}
+
+.fotosD{
+    margin: 10px;
+    display: inline;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.fotosS{
+      margin: 35px 0 0 0;
+     display: inline;
+    width: 250px;
+    border-radius: 20px ;
+}
+
+.fotosK{
+    margin: 10px;
+    display: inline;
+    width: 250px;
+   border-radius: 10px;
+}
+
+
+/*TABELA*/
+
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2{
+	font-size: 3em;
+	display: block;
+    padding-top: .1em;
+	padding-bottom: .3em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: .5em;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .3em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: antiquewhite;
+	font-weight: bold;
+	background-color: chocolate;
+}
+
+label{
+	color: chocolate;
+	display: block;
+	margin-bottom: .2em;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 2em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .9em;
+}
+
+.grupo{
+	width: 32%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+button{
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color:#0c8cd3;
+	border-color: #04324c;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+
+}
+
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+.adicionar-produto{
+    margin-top: 30px;
+}
+
+.campo-invalido{
+	border: 1px solid red;
+}
+
+
